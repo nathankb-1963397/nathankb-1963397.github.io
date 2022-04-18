@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  }
+
+.float {
+  float: left;
+  border: 1px dotted red;
+  width: 50px;
+  height: 50px;
+}
+
+.fpara {
+  border: 1px solid black;
+}
+
+.rounded {
+  margin: 40px;
+  border: 50px solid black;
+  border-radius: 20px;
+}
